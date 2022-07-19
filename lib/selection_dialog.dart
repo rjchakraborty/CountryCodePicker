@@ -136,11 +136,14 @@ class _SelectionDialogState extends State<SelectionDialog> {
         ),
       );
 
-  Widget _buildOption(CountryCode e) {
+   Widget _buildOption(CountryCode e) {
     return Container(
       width: 400,
       child: Flex(
         direction: Axis.horizontal,
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        mainAxisSize: MainAxisSize.max,
         children: <Widget>[
           if (widget.showFlag!)
             Flexible(
@@ -164,6 +167,16 @@ class _SelectionDialogState extends State<SelectionDialog> {
                   : e.toLongString(),
               overflow: TextOverflow.fade,
               style: widget.textStyle,
+            ),
+          ),
+          Flexible(
+            child: Container(
+              margin: const EdgeInsets.only(right: 16.0),
+              child: Text(
+                e.toString(),
+                overflow: TextOverflow.fade,
+                style: widget.textStyle,
+              ),
             ),
           ),
         ],
