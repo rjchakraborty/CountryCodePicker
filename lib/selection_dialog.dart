@@ -166,7 +166,7 @@ class _SelectionDialogState extends State<SelectionDialog> {
                   ? e.toCountryStringOnly()
                   : e.toLongString(),
               overflow: TextOverflow.fade,
-              style: widget.textStyle,
+              style: widget.searchStyle,
             ),
           ),
           Flexible(
@@ -175,7 +175,7 @@ class _SelectionDialogState extends State<SelectionDialog> {
               child: Text(
                 e.toString(),
                 overflow: TextOverflow.fade,
-                style: widget.textStyle,
+                style: widget.searchStyle,
               ),
             ),
           ),
