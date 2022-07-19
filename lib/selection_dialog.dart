@@ -160,7 +160,6 @@ class _SelectionDialogState extends State<SelectionDialog> {
               ),
             ),
           Expanded(
-            flex: 4,
             child: Text(
               widget.showCountryOnly!
                   ? e.toCountryStringOnly()
