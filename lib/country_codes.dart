@@ -1,5 +1,20 @@
 const List<Map<String, String>> codes = [
   {
+    "name": "Singapore",
+    "code": "SG",
+    "dial_code": "+65",
+  },
+  {
+    "name": "Pilipinas",
+    "code": "PH",
+    "dial_code": "+63",
+  },
+  {
+    "name": "भारत",
+    "code": "IN",
+    "dial_code": "+91",
+  },
+  {
     "name": "افغانستان",
     "code": "AF",
     "dial_code": "+93",
@@ -500,11 +515,6 @@ const List<Map<String, String>> codes = [
     "dial_code": "+354",
   },
   {
-    "name": "भारत",
-    "code": "IN",
-    "dial_code": "+91",
-  },
-  {
     "name": "Indonesia",
     "code": "ID",
     "dial_code": "+62",
@@ -870,11 +880,6 @@ const List<Map<String, String>> codes = [
     "dial_code": "+51",
   },
   {
-    "name": "Pilipinas",
-    "code": "PH",
-    "dial_code": "+63",
-  },
-  {
     "name": "Pitcairn Islands",
     "code": "PN",
     "dial_code": "+64",
@@ -998,11 +1003,6 @@ const List<Map<String, String>> codes = [
     "name": "Sierra Leone",
     "code": "SL",
     "dial_code": "+232",
-  },
-  {
-    "name": "Singapore",
-    "code": "SG",
-    "dial_code": "+65",
   },
   {
     "name": "Slovensko",
