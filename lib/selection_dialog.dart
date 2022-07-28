@@ -160,29 +160,21 @@ class _SelectionDialogState extends State<SelectionDialog> {
               ),
             ),
           Expanded(
-            child: FittedBox(
-              fit: BoxFit.contain,
-              alignment: Alignment.center,
-              child: Text(
+            child: Text(
               widget.showCountryOnly!
                   ? e.toCountryStringOnly()
                   : e.toLongString(),
               overflow: TextOverflow.fade,
               style: widget.searchStyle,
-            )
             ),
           ),
           Flexible(
             child: Container(
               margin: const EdgeInsets.only(right: 16.0),
-              child: FittedBox(
-                fit: BoxFit.contain,
-                alignment: Alignment.center,
-                child: Text(
+              child: Text(
                 e.toString(),
                 overflow: TextOverflow.fade,
                 style: widget.searchStyle,
-              )
               ),
             ),
           ),
